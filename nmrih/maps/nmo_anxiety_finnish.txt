@@ -1,0 +1,15 @@
+"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{
+	"nmo_anxiety_Obj1"	"Leikkaa aseman ovi auki."
+	"nmo_anxiety_Obj2"	"Sammuta tulipalo."
+	"nmo_anxiety_Obj3"	"Purkaa barrikadi."
+	"nmo_anxiety_Obj4"	"Nosta portti."
+	"nmo_anxiety_Obj5"	"Poistu metroasemalta."
+	"nmo_anxiety_Obj6"	"Kiipeä tikapuilla aidan yli."
+	"nmo_anxiety_Obj7"	"Leikkaa parkkihallin ovi auki."
+	"nmo_anxiety_Obj8"	"Avaa sairaalan ovet."
+	"nmo_anxiety_Obj9"	"Löydä asuntoauton avaimet."
+}
