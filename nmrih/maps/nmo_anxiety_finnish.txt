@@ -11,5 +11,5 @@
 	"nmo_anxiety_Obj6"	"Kiipeä tikapuilla aidan yli."
 	"nmo_anxiety_Obj7"	"Leikkaa parkkihallin ovi auki."
 	"nmo_anxiety_Obj8"	"Avaa sairaalan ovet."
-	"nmo_anxiety_Obj9"	"Löydä asuntoauton avaimet."
+	"nmo_anxiety_Obj9"	"Löydä asuntoauton avaimet. :D"
 }
