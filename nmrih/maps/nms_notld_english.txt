@@ -1,7 +1,0 @@
-"lang" 
-{ 
-"Language" "English" 
-"Tokens" 
-{
-	"nms_notld_title"	"Night of the Dead"
-}
