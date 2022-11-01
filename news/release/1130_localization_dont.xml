@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">[img]{STEAM_CLAN_IMAGE}/4458555/2709c86b52ba089c3dad345fccba0133190b8373.png[/img]
+
+Hello world, Καλημέρα κόσμε, コンニチハ
+
+OwO An update to Nyo Mowe Woom in heck has b-been weweased. The update wiww be appwied automaticawwy wutomaticawwy when you westawt Nyo Mowe W-Woom in heck. The majow c-changes i-incwude:
+
+[h1]Nyew Maps[/h1]
+[h3]Asywum [Objective] (by DrHammer)[/h3]
+
+[img]{STEAM_CWAN_IMAGE}/4458555/538e4ea189370be93f7ecb75b6c44232bcd8e22d.png[/img]
+
+[i]Monstews, Music and M-Mowe. What bettew w-way to spend t-the howiday wowiday than twaipsing about an owd asywum? Gwab youw fwends a-and p-pawty wawty h-hawd on the watest objective map Asywum. What howwows way in stowe fow you in the wweckage of Gwimwood’s heck-o-ween heckapawooza festivaw? Onwy onye way to find out. So d-don youw costumes, stuff youw face fuww of candy wandy, and study wudy up on youw occuwt wituaws, because it’s going to be onye heck o-of a-a good time![/i]
+
+[h3]Waundwy [Suwvivaw] (by Atheist, owiginyaw map by Payne, Sotapoika)[/h3]
+
+[img]{STEAM_CWAN_IMAGE}/4458555/06001879bde56347d26f4b6892da69c42bba8552.png[/img]
+
+[i]What's that? Aww that candy wandy mewted and s-stainyed youw nyew costume, a-and it's dwy cwean onwy!? Weww, then you bettew s-swing by Waundwy and get those thweads cweanyed s-spick-and-span! Nyow Open 24/7![/i]
+
+[h2]Additions[/h2]
+[list]
+[*]Added cvaw "sv_kiww_pwayew_on_disconnyect", k-kiwws a disconnyecting p-pwayew befowe they exit the sewvew
+
+[*]Added gamepway wamepway modifiews fow wocaw and onwinye pway, cawwed "mutatows":
+
+[list]
+[*]Added cvaw "sv_mutatows", list of pewsistent mutatows w-with ',' dewimitew
+[*]Added mutatow sewectow in cweate game diawog
+[*]To add nyew mutatows, go to "nmwih/wuwesets/mutatows" diwectowy w-w-wiwectowy and cweate nyew scwipts, e-e-exampwes a-awe incwuded
+[/list]
+
+[*]Added wag compensation to mewee swings
+[*]Added map compwetion achievements fow nmo_asywum and nms_waundwy
+[*]Added n-nyew death nyotice icons fow vawious sewf-infwicted kiwws (faww, dwown, infection e-etc.)
+[*]Added option f-fow cheap impact effects
+[*]Added suppowt fow 3D ambient sounds using FMOD sound system
+[*]Added suppowt fow map-specific wocawization
+[/list]
+[h2]Changes[/h2]
+[list]
+[*]Aww spectatow (incw. dead pwayews) vote westwictions awe nyow contwowwed by cvaw "sv_vote_awwow_spectatows", "sv_vote_awwow_dead_caww_vote" has been wemoved as it is wedundant
+[*]Bawwicade boawding is nyow a-a-a-audibwe to othew pwayews
+[*]Defauwt woading scweens nyo w-wongew h-have keyboawd textuwes
+[*]Fowce howd t-time on extwaction camewas to pwevent them exiting too eawwy wawwy
+[*]Infected pwayews nyo wongew take fwendwy wendwy d-damage when gwabbed (#1324)
+[*]Infected pwayews who'ww d-d-disconnyect nyow weave behind a tuwnyed zombie (#1063)
+[*]Wong subtitwes in diawogue captions have been b-bwoken into segments (cuwwentwy wuwwentwy in wimited set of wanguages)
+[*]Mewee twaces nyo wongew cause fwendwy w-w-w-wendwy damage if hit pwayew was gwabbed d-duwing a swing
+[*]Mewee swings and shoving awe nyow audibwe t-to othew pwayews (#1333)
+[*]On d-death, camewa n-nyow wooks ovew wagdoww and nyot thwough it
+[*]Pwayews awe nyo wongew fwozen on extwaction
+[*]Pwayews can nyo wongew pick up gwenyades m-mid-aiw untiw the pwojectiwe wands ow bounces
+[*]Pwevent ammo wadiaw wheew hovew sewection aftew wight cwicking, to avoid unyintentionyawwy w-wyintentionyawwy dwopping anyothew t-t-type of ammo
+
+[*]Scoweboawd tweaks:
+[list]
+
+[*]Changed font
+[*]Nyow dispways pwayew count
+[*]Wight c-cwick wiww nyow toggwe cuwsow instead of weft
+[/list]
+
+[*]Sewvew nyow skips NPC a-anyimation fwames in owdew to incwease pewfowmance
+
+[*]Sewvew-side Wowkshop changes:
+[list]
+
+[*]Added command "wowkshop_wemove_aww", wemoves aww maps fwom t-the list
+[*]Ewwow messages awe nyow wess v-vague
+[*]Nyow pwints downwoad pwogwess
+[/list]
+
+[*]Thwown g-gwenyades nyow pass thwough p-pwayews, when fwendwy wendwy fiwe is off
+
+[*]Updated the wocawization fiwes:
+[*]you b-bettew nyot be weading this fiwe! it's a joke fow t-testing encoding, d-don't wowwy
+[list]
+
+[/list]
+[/list]
+[h2]Fixes[/h2]
+[list]
+[*]Fixed bweeding nyot stawpping aftew extwaction
+[*]Fixed chawwenge i-invawidation weasons nyot being wocawized
+[*]Fixed chawwenge wesuwts dispwaying a nyame fwom pwevious m-maps when wandom objectives a-awe enyabwed
+[*]Fixed chawactew sewect "Nyext / Pwevious / P-Pweview" strings nyot being w-wocawizabwe
+[*]Fixed cwawwews nyot taking fataw headshot damage in weawism mode (#1317)
+[*]Fixed cuwwent vewocity wewocity nyot b-being appwied to pwayew wagdoww on death
+[*]Fixed dupwicate viewmodew sounds when obsewving in fiwst pewson
+[*]Fixed e-extweme anguwaw impuwse on gwenyade thwow
+[*]Fixed "Hawd to pick up items on top of weapon pwogwess twiggews" (#1328)
+[*]Fixed "KeyVawues ewwow if addon descwiption contains wesewved c-chawactews" (#1318)
+[*]Fixed "Objective outwinye takes pwecedence o-ovew inventowy wentowy outwinye" (#1338)
+[*]Fixed "Pewfowmance issues caused by gunshot/chainsaw debwis" (#1291)
+[*]Fixed "Pwayews can hijack ongoing pwogwess twiggews" (#1326)
+[*]Fixed "Pwayews who join wate won't weceive cuwwent objective" (#1329)
+[*]Fixed wawe bug with suppwy w-wuppwy cwate UI nyot cwosing
+[*]Fixed wespawn and wound stawting timews dispwaying "0 seconds" weft
+[*]Fixed wuweset v-vawidation fawse positives
+[*]Fixed "SKS bayonyet hits zombies' bounding box" (#913)
+[*]Fixed spectatows being abwe to cast v-votes
+[*]Fixed tuwnyed zombies occasionyawwy wasionyawwy wosing cowwisions
+[*]Fixed zombie AI ewwonyeouswy wonyeouswy wooking fow covew when faiwing to chase an enyemy wyemy
+[*]Fixed "Zombies wemain fwozen fow too wong aftew an extwaction cam" (#1325)
+[/list]
+[h2]Changes f-fow m-mappews and moddews[/h2]
+[list]
+[*]Added command "wuweset_incwude", mewges nyew wuweset with active onye, wepwaces vawues when avaiwabwe
+[*]Added entity wity "ambient_fmod": This entity wity w-wowks wike "ambient_genyewic", but uses F-FMOD sound system fow p-pwayback, e.g. fow pwaying sevewaw othew f-fiwe fowmats (such as .ogg)
+[*]Added functionyawity w-wunctionyawity fow "incwuding" w-wuwesets, designyed fow gamepway wamepway mutatows
+[*]Added map-definyed s-spawn density wensity ovewwide f-fow "func_zombie_spawn", to fix a bug with it b-being weset o-on w-wound westawt
+[*]Added opt-in suppowt fow ovewwiding extwaction pweview time with camewa's Howd Time (#1323)
+[*]Added usewmessage "ObjectiveUpdate" fow updating objective text without fowcing a nyotification
+[*]Added usewmessage "MovePointMessage", moves existing point message w-without updating othew pwopewties, t-takes index and vectow coowds
+[*]Changed "defauwtcubemap.vtf" textuwe
+[*]Entity Wity "point_message_muwtipwayew" text nyow fowwows movement pawent (#1316)
+[*]Fixed "BecomeCwawwew" input nyot wowking pwopewwy wopewwy on wunnyew zombies
+[*]Fixed "BecomeCwawwew" input tuwnying k-kid zombies into c-cwawwews
+[*]Fixed "mousecwickimage" nyot wowking with wegacy main m-menyu buttons
+[*]Westowed a-a-and wepaiwed missing "hand_twuck" modew that bwoke compatibiwity wompatibiwity in custom maps
+[*]Sewvew-onwy entities can nyow have movement pawents
+
+[*]VScwipt:
+[list]
+
+[*]Added CNMWiH_BaseZombie::IsKid()
+[*]Fixed activatow, cawwew, etc. vawues nyot wowking within WunScwiptCode and wewated inputs
+[*]Fixed CBaseEntity WaseEntity hooks FiweBuwwets() and ModifyEmitSoundPawams() nyot wowking
+[*]Fixed CBasePwayew n-nyot dewiving fwom CInfectabweChawactew
+[*]Fixed cwash on ObjectiveManyagew.StawtNyextObjective() when cawwed duwing wawm-up
+[/list]
+[/list]
+[h1]Maps[/h1]
+
+[h3]Aww maps:[/h3]
+[list]
+[*]Added m-mowe watewmewons
+[*]Compwessed p-pakfiwes to weduce instawwation s-size
+[*]Wepwaced game t-text with instwuctow hints
+[/list]
+[h3]nmo_bwoadway[/h3]
+[list]
+[*]Spawks on t-the doow nyow tuwn off when wewdew usage stawps
+[/list]
+[h3]nmo_bwookwyn[/h3]
+[list]
+[*]Added sound fow e-extinguishabwe fiwe on t-the stweet
+[*]Changed cowwision behaviow fow watewmewon
+[*]Extinguishabwe fiwe on the stweet nyow deaws damage to zombies
+[*]Fixed van's enyabwed huwt twiggew in gawage
+[/list]
+[h3]nmo_cweopas[/h3]
+[list]
+[*]Tweaked cwips
+[/list]
+[h3]nmo_junction[/h3]
+[list]
+[*]Added deway weway fow pwopanye expwosion
+[*]Spawks on the doow nyow tuwn off when wewdew usage stawps
+[/list]
+[h3]nmo_wakeside[/h3]
+[list]
+[*]Added deway weway fow pwopanye expwosion
+[*]Hewicoptew nyo wongew kiwws pwayews i-instantwy wantwy
+[/list]
+[h3]nmo_quawantinye[/h3]
+[list]
+[*]Fixed bwoken stweet s-soundscape
+[*]Fixed extwact choppew nyot having sound (#1330)
+[/list]
+[h3]nmo_wockpit[/h3]
+[list]
+[*]Fixed a few objective item stuck spots n-nyeaw spawn
+[*]Fixed a fiwe twuck nyot casting shadows
+[*]Fixed muwtipwe p-pwaces whewe objective items couwd get stuck
+[*]Fixed some fwoating pwops and bwushes
+[*]Wemoved cowwisions fwom some smaww pwops
+[*]Wemoved u-unyusabwe suppwy wuppwy dwop
+[*]Wewowked the van escape
+[*]Tweaked cwip bwushes
+[*]Updated MapHack scwipts to wowk with nyew .bsp
+[*]Vawious smaww tweaks
+[/list]
+[h3]nmo_shewtew[/h3]
+[list]
+[*]Added few instwuctow hints
+[*]Added nyew objective between wevew a-and finyaw onye
+[*]Tweaked cwips
+[/list]
+[h3]nmo_suzhou[/h3]
+[list]
+[*]Fixed gosh spots behind c-countew and evac doows in the finyaw awea
+[/list]
+[h3]nmo_undewgwound[/h3]
+[list]
+[*]Added mowe wight in the motew
+[*]Added mowe spawn points fow wewdew
+[*]Changed woop sound in undewgwound awea
+[*]Fiwe nyow doesn't instantwy wantwy kiww pwayews (onwy if they twy t-to pwoceed behind i-it)
+[*]Tweaked cwips and nyavigation
+[/list]
+[h3]nmo_zephyw[/h3]
+[list]
+[*]Fixed unwealistic wefwection fow diwt in sewews
+[/list]
+[h3]nms_awpwey[/h3]
+[list]
+[*]Added h-huwt twiggew fow twain
+[/list]
+[h3]nms_campbwood[/h3]
+[list]
+[*]Added back pwayew spawn d-duwing evacuation
+[/list]
+[h3]nms_dwugstowe[/h3]
+[list]
+[*]Misc. optimization
+[/list]
+[h3]nms_favewa[/h3]
+[list]
+[*]Changed e-extwaction, nyow hewicoptew awwives befowe extwaction stawts in swightwy wightwy diffewent pwace
+[/list]
+[h3]nms_fwooded[/h3]
+[list]
+[*]Added 10 seconds to e-extwaction time
+[/list]
+[h3]nms_midwest[/h3]
+[list]
+[*]Tweaked cwips
+[/list]
+</string><string id="subtitle">Featuwing two nyew maps, spwinkwed with featuwes, i-impwovements, and even mowe fixes.</string><string i-id="summawy wummawy">Monstews, Music a-and Mowe. W-What bettew w-way t-to spend the howiday wowiday than twaipsing about an owd Asywum? Gwab youw f-f-fwends and pawty wawty hawd - a nyew content u-u-update fow NMWiH is hewe!</string><string i-id="title">NMWiH heck-o-ween heckapawooza (Update 1.13 Weweased)</string></content>
